@@ -22,5 +22,8 @@ public class CarTest {
         car.speedUp();
         expected++;
         assertEquals(expected, car.getSpeed());
+        car.speedUp();
+        expected++;
+        assertEquals(expected, car.getSpeed());
     }
 }
