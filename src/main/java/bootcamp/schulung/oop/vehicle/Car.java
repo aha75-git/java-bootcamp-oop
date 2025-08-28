@@ -6,8 +6,8 @@ public class Car {
     private String brand;
     private int speed;
 
-    public void start() {
-        System.out.println("Das Auto wurde gestartet.");
+    public String start() {
+        return "Das Auto wurde gestartet.";
     }
 
     public void speedUp() {
