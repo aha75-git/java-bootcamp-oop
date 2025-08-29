@@ -1,6 +1,6 @@
 package bootcamp.schulung.oop.vehicle;
 
-public class Car {
+public class CarExercise {
     private String color;
     private String model;
     private String brand;

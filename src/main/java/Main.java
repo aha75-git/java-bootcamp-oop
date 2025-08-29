@@ -1,20 +1,20 @@
 import bootcamp.schulung.oop.person.Gender;
 import bootcamp.schulung.oop.person.Person;
-import bootcamp.schulung.oop.vehicle.Car;
+import bootcamp.schulung.oop.vehicle.CarExercise;
 
 public class Main {
     public static void main(String[] args) {
         // Autos
-        Car car = new Car();
-        System.out.println(car.start());
+        CarExercise carExercise = new CarExercise();
+        System.out.println(carExercise.start());
         System.out.println();
-        Car car2 = new Car();
-        System.out.println(car2.start());
-        car2.speedUp();
-        System.out.println("Das Auto 2 beschleunigt sich. Die Geschwindigkeit ist " + car2.getSpeed());
-        car2.speedUp();
-        car2.speedUp();
-        System.out.println("Das Auto 2 beschleunigt sich. Die Geschwindigkeit ist " + car2.getSpeed());
+        CarExercise carExercise2 = new CarExercise();
+        System.out.println(carExercise2.start());
+        carExercise2.speedUp();
+        System.out.println("Das Auto 2 beschleunigt sich. Die Geschwindigkeit ist " + carExercise2.getSpeed());
+        carExercise2.speedUp();
+        carExercise2.speedUp();
+        System.out.println("Das Auto 2 beschleunigt sich. Die Geschwindigkeit ist " + carExercise2.getSpeed());
         System.out.println();
 
         // Personen
